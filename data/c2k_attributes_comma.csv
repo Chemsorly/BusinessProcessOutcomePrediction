@@ -1,0 +1,105 @@
+DATA FIELDS;PART OF PROCESS;TRANSPORT SERVICE;DATA TYPE;NOTE: '?' marks an empty field
+;;;;
+nr;overall;-;[1…3942];unique id for process instance 
+;;;;
+i1_legid;incoming transport leg 1;-;[1..14664];"unique id across all transport legs (note: also to ""empty"" legs are assigned an id)"
+i1_rcs_p;incoming transport leg 1;RCS: Freight Check in;MINUTES;planned duration 
+i1_rcs_e;incoming transport leg 1;RCS: Freight Check in;MINUTES;effective (i.e., actual) duration 
+i1_dep_1_p;incoming transport leg 1;DEP: Departure Segment 1;MINUTES;planned duration 
+i1_dep_1_e;incoming transport leg 1;DEP: Departure Segment 1;MINUTES;effective (i.e., actual) duration 
+i1_dep_1_place;incoming transport leg 1;DEP: Departure Segment 1;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i1_rcf_1_p;incoming transport leg 1;RCF: Arrival Segment 1;MINUTES;planned duration 
+i1_rcf_1_e;incoming transport leg 1;RCF: Arrival Segment 1;MINUTES;effective (i.e., actual) duration 
+i1_rcf_1_place;incoming transport leg 1;RCF: Arrival Segment 1;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i1_dep_2_p;incoming transport leg 1;DEP: Departure Segment 2;MINUTES;planned duration 
+i1_dep_2_e;incoming transport leg 1;DEP: Departure Segment 2;MINUTES;effective (i.e., actual) duration 
+i1_dep_2_place;incoming transport leg 1;DEP: Departure Segment 2;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i1_rcf_2_p;incoming transport leg 1;RCF: Arrival Segment 2;MINUTES;planned duration 
+i1_rcf_2_e;incoming transport leg 1;RCF: Arrival Segment 2;MINUTES;effective (i.e., actual) duration 
+i1_rcf_2_place;incoming transport leg 1;RCF: Arrival Segment 2;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i1_dep_3_p;incoming transport leg 1;DEP: Departure Segment 3;MINUTES;planned duration 
+i1_dep_3_e;incoming transport leg 1;DEP: Departure Segment 3;MINUTES;effective (i.e., actual) duration 
+i1_dep_3_place;incoming transport leg 1;DEP: Departure Segment 3;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i1_rcf_3_p;incoming transport leg 1;RCF: Arrival Segment 3;MINUTES;planned duration 
+i1_rcf_3_e;incoming transport leg 1;RCF: Arrival Segment 3;MINUTES;effective (i.e., actual) duration 
+i1_rcf_3_place;incoming transport leg 1;RCF: Arrival Segment 3;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i1_dlv_p;incoming transport leg 1;DLV: Freight Delivery;MINUTES;planned duration 
+i1_dlv_e;incoming transport leg 1;DLV: Freight Delivery;MINUTES;effective (i.e., actual) duration 
+i1_hops;incoming transport leg 1;-;[1..4];number of segments (hops) in the transport leg
+;;;;
+i2_legid;incoming transport leg 2;-;[1..14664];"unique id across all transport legs (note: also to ""empty"" legs are assigned an id)"
+i2_rcs_p;incoming transport leg 2;RCS: Freight Check in;MINUTES;planned duration 
+i2_rcs_e;incoming transport leg 2;RCS: Freight Check in;MINUTES;effective (i.e., actual) duration 
+i2_dep_1_p;incoming transport leg 2;DEP: Departure Segment 1;MINUTES;planned duration 
+i2_dep_1_e;incoming transport leg 2;DEP: Departure Segment 1;MINUTES;effective (i.e., actual) duration 
+i2_dep_1_place;incoming transport leg 2;DEP: Departure Segment 1;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i2_rcf_1_p;incoming transport leg 2;RCF: Arrival Segment 1;MINUTES;planned duration 
+i2_rcf_1_e;incoming transport leg 2;RCF: Arrival Segment 1;MINUTES;effective (i.e., actual) duration 
+i2_rcf_1_place;incoming transport leg 2;RCF: Arrival Segment 1;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i2_dep_2_p;incoming transport leg 2;DEP: Departure Segment 2;MINUTES;planned duration 
+i2_dep_2_e;incoming transport leg 2;DEP: Departure Segment 2;MINUTES;effective (i.e., actual) duration 
+i2_dep_2_place;incoming transport leg 2;DEP: Departure Segment 2;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i2_rcf_2_p;incoming transport leg 2;RCF: Arrival Segment 2;MINUTES;planned duration 
+i2_rcf_2_e;incoming transport leg 2;RCF: Arrival Segment 2;MINUTES;effective (i.e., actual) duration 
+i2_rcf_2_place;incoming transport leg 2;RCF: Arrival Segment 2;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i2_dep_3_p;incoming transport leg 2;DEP: Departure Segment 3;MINUTES;planned duration 
+i2_dep_3_e;incoming transport leg 2;DEP: Departure Segment 3;MINUTES;effective (i.e., actual) duration 
+i2_dep_3_place;incoming transport leg 2;DEP: Departure Segment 3;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i2_rcf_3_p;incoming transport leg 2;RCF: Arrival Segment 3;MINUTES;planned duration 
+i2_rcf_3_e;incoming transport leg 2;RCF: Arrival Segment 3;MINUTES;effective (i.e., actual) duration 
+i2_rcf_3_place;incoming transport leg 2;RCF: Arrival Segment 3;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i2_dlv_p;incoming transport leg 2;DLV: Freight Delivery;MINUTES;planned duration 
+i2_dlv_e;incoming transport leg 2;DLV: Freight Delivery;MINUTES;effective (i.e., actual) duration 
+i2_hops;incoming transport leg 2;-;[1..4];number of segments (hops) in the transport leg
+;;;;
+i3_legid;incoming transport leg 3;-;[1..14664];"unique id across all transport legs (note: also to ""empty"" legs are assigned an id)"
+i3_rcs_p;incoming transport leg 3;RCS: Freight Check in;MINUTES;planned duration 
+i3_rcs_e;incoming transport leg 3;RCS: Freight Check in;MINUTES;effective (i.e., actual) duration 
+i3_dep_1_p;incoming transport leg 3;DEP: Departure Segment 1;MINUTES;planned duration 
+i3_dep_1_e;incoming transport leg 3;DEP: Departure Segment 1;MINUTES;effective (i.e., actual) duration 
+i3_dep_1_place;incoming transport leg 3;DEP: Departure Segment 1;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i3_rcf_1_p;incoming transport leg 3;RCF: Arrival Segment 1;MINUTES;planned duration 
+i3_rcf_1_e;incoming transport leg 3;RCF: Arrival Segment 1;MINUTES;effective (i.e., actual) duration 
+i3_rcf_1_place;incoming transport leg 3;RCF: Arrival Segment 1;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i3_dep_2_p;incoming transport leg 3;DEP: Departure Segment 2;MINUTES;planned duration 
+i3_dep_2_e;incoming transport leg 3;DEP: Departure Segment 2;MINUTES;effective (i.e., actual) duration 
+i3_dep_2_place;incoming transport leg 3;DEP: Departure Segment 2;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i3_rcf_2_p;incoming transport leg 3;RCF: Arrival Segment 2;MINUTES;planned duration 
+i3_rcf_2_e;incoming transport leg 3;RCF: Arrival Segment 2;MINUTES;effective (i.e., actual) duration 
+i3_rcf_2_place;incoming transport leg 3;RCF: Arrival Segment 2;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i3_dep_3_p;incoming transport leg 3;DEP: Departure Segment 3;MINUTES;planned duration 
+i3_dep_3_e;incoming transport leg 3;DEP: Departure Segment 3;MINUTES;effective (i.e., actual) duration 
+i3_dep_3_place;incoming transport leg 3;DEP: Departure Segment 3;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i3_rcf_3_p;incoming transport leg 3;RCF: Arrival Segment 3;MINUTES;planned duration 
+i3_rcf_3_e;incoming transport leg 3;RCF: Arrival Segment 3;MINUTES;effective (i.e., actual) duration 
+i3_rcf_3_place;incoming transport leg 3;RCF: Arrival Segment 3;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+i3_dlv_p;incoming transport leg 3;DLV: Freight Delivery;MINUTES;planned duration 
+i3_dlv_e;incoming transport leg 3;DLV: Freight Delivery;MINUTES;effective (i.e., actual) duration 
+i3_hops;incoming transport leg 3;-;[1..4];number of segments (hops) in the transport leg
+;;;;
+o_legid;outgoing transport leg;-;[1..14664];"unique id across all transport legs (note: also to ""empty"" legs are assigned an id)"
+o_rcs_p;outgoing transport leg;RCS: Freight Check in;MINUTES;planned duration 
+o_rcs_e;outgoing transport leg;RCS: Freight Check in;MINUTES;effective (i.e., actual) duration 
+o_dep_1_p;outgoing transport leg;DEP: Departure Segment 1;MINUTES;planned duration 
+o_dep_1_e;outgoing transport leg;DEP: Departure Segment 1;MINUTES;effective (i.e., actual) duration 
+o_dep_1_place;outgoing transport leg;DEP: Departure Segment 1;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+o_rcf_1_p;outgoing transport leg;RCF: Arrival Segment 1;MINUTES;planned duration 
+o_rcf_1_e;outgoing transport leg;RCF: Arrival Segment 1;MINUTES;effective (i.e., actual) duration 
+o_rcf_1_place;outgoing transport leg;RCF: Arrival Segment 1;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+o_dep_2_p;outgoing transport leg;DEP: Departure Segment 2;MINUTES;planned duration 
+o_dep_2_e;outgoing transport leg;DEP: Departure Segment 2;MINUTES;effective (i.e., actual) duration 
+o_dep_2_place;outgoing transport leg;DEP: Departure Segment 2;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+o_rcf_2_p;outgoing transport leg;RCF: Arrival Segment 2;MINUTES;planned duration 
+o_rcf_2_e;outgoing transport leg;RCF: Arrival Segment 2;MINUTES;effective (i.e., actual) duration 
+o_rcf_2_place;outgoing transport leg;RCF: Arrival Segment 2;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+o_dep_3_p;outgoing transport leg;DEP: Departure Segment 3;MINUTES;planned duration 
+o_dep_3_e;outgoing transport leg;DEP: Departure Segment 3;MINUTES;effective (i.e., actual) duration 
+o_dep_3_place;outgoing transport leg;DEP: Departure Segment 3;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+o_rcf_3_p;outgoing transport leg;RCF: Arrival Segment 3;MINUTES;planned duration 
+o_rcf_3_e;outgoing transport leg;RCF: Arrival Segment 3;MINUTES;effective (i.e., actual) duration 
+o_rcf_3_place;outgoing transport leg;RCF: Arrival Segment 3;[100…816];unique id for airport (original IATA codes have been masked due to confidentiality reasons)
+o_dlv_p;outgoing transport leg;DLV: Freight Delivery;MINUTES;planned duration 
+o_dlv_e;outgoing transport leg;DLV: Freight Delivery;MINUTES;effective (i.e., actual) duration 
+o_hops;outgoing transport leg;-;[1..4];number of segments (hops) in the transport leg
+;;;;
+legs;overall;-;[1..3];number of incoming transport legs
