@@ -23,7 +23,7 @@ If you want to use docker, there are ready-to-use images in [chemsorly/keras-cnt
 # Run
 * Clone repository
 * Navigate to ./code/
-* run "python aio_numeric_s2s_noplanned.py 1 100 0.1 20 1"
+* run "python s2s.py 1 100 0.1 20 1"
 
 Parameters are as follows:
 * Running number (unused int)
